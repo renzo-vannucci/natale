@@ -1,0 +1,103 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #ededed;
+    color: #b39f69;
+    text-align: center;
+    padding: 1em 0;
+    width: 432px;
+    margin:0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+h2 {
+   border-bottom: 1px solid  #b39f69;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 2em; */
+}
+
+.dish {
+    background-color: #fff;
+    /* border: 1px solid #ddd;
+    border-radius: 8px; */
+    padding: 0.85em;
+    width: 400px;
+    min-height: 90px;
+    font-family: 'Lora';
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+
+    width: 100%; /* Modificato per allineare con il corpo della pagina */
+    
+    position: fixed;
+    bottom: 0;
+    background-color: #f4f4f4;
+    padding: 0 !important;
+   
+   
+}
+
+section{
+    flex: 1; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 80px;  */
+    background-color: #ededed;
+    width: 432px;
+    margin: auto;
+    
+
+}
+
+span{
+    font-family: Noto Serif TC;
+}
+
+p{
+    padding-top: 10px;
+    margin: 0;
+    text-align: center; /* Centra il testo orizzontalmente */
+    font-size: 34px;
+    font-family: Great Vibes;
+    
+}
+
+.auguriCinese{
+    font-family: Liu Jian Mao Cao;
+
+}
+
